@@ -1,0 +1,30 @@
+<div class="wrapper fadeInDown">
+    <link href="css/login_1.css" rel="stylesheet" type="text/css">
+  <div id="formContent">
+    <!-- Tabs Titles -->
+    <h2 class="active"> Ingresar </h2>
+    <h2 class="inactive underlineHover"><a href="login.html">Registro </a></h2>
+
+    <!-- Icon -->
+    <div class="fadeIn first">
+      <img src="img/jarvis.jpg" alt="User Icon" />
+    </div>
+
+    <!-- Login Form -->
+    <form method="post" action="login.php">
+      <input type="text" id="login" class="fadeIn second" name="txtusuario" placeholder="login">
+      <input type="password" id="password" class="fadeIn third" name="txtpassword" placeholder="password">
+
+      <!-- ***************** -->
+      <input type="hidden" name="error" id="error" value="<?=$error?>">
+      <!-- ***************** -->
+      <input type="submit" class="fadeIn fourth" value="Log In">
+    </form>
+
+    <!-- Remind Passowrd -->
+    <div id="formFooter">
+      <a class="underlineHover" href="login.html">Registrar nuevo usuario</a>
+    </div>
+
+  </div>
+</div>

@@ -1,0 +1,29 @@
+<div class="wrapper fadeInDown">
+    <link href="css/login_1.css" rel="stylesheet" type="text/css">
+  <div id="formContent">
+    <!-- Tabs Titles -->
+    <h2 class="inactive"><a href="login_1.html"> Ingresar </a></h2>
+    <h2 class="active underlineHover">Registro </h2>
+
+
+    <!-- Login Form -->
+    <form method="post" action="operacion_guardar.php">
+
+      <p><input type="text" REQUIRED name="nombre" placeholder="Nombre..." value=""/> </br></br>
+      <input type="text" REQUIRED name="apellido" placeholder="Apellido..." value=""/> </br></br></p><p>
+      <input type="text" REQUIRED name="correo" placeholder="Correo..." value=""/> </br></br>
+      <input type="text" REQUIRED name="telefono" placeholder="Telefono..." value=""/> </br></br>
+     <input type="text" id="login" class="fadeIn second" name="txtusuario" placeholder="login">
+      <input type="password" id="password" class="fadeIn third" name="txtpassword" placeholder="password"></p>
+
+      <input type="submit" class="fadeIn fourth" value="Resgistrar">
+
+    </form>
+
+    <!-- Remind Passowrd -->
+    <div id="formFooter">
+      <a class="underlineHover" href="#">Recuperar clave</a>
+    </div>
+
+  </div>
+</div>
