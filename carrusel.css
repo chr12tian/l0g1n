@@ -1,0 +1,63 @@
+.carousel-animate .carousel-indicators > li {
+ margin: 0 2px;
+ background-color: #fff;
+ border-color: rgb(58,36,83);
+ opacity: .7;
+}
+.carousel-animate .carousel-indicators > li.active {
+ width: 10px;
+ height: 10px;
+ opacity: 1;
+}
+.carousel-animate .hero {
+ color: #fff;
+ text-align: center;
+ text-transform: uppercase;
+ text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.75);
+}
+.btn.btn-lg {
+ padding: 10px 40px;
+}
+.btn.btn-hero,
+.btn.btn-hero:hover,
+.btn.btn-hero:focus {
+ color: #fff;
+ background-color: #694198;
+ border-color: rgb(67,41,97);
+ outline: none;
+ margin: 20px auto;
+}
+@media screen and (max-width: 640px) {
+ .hero h1 {
+ font-size: 2em;
+ }
+}
+.carousel-fade .carousel-inner .item {
+ transition-property: opacity;
+}
+.carousel-fade .carousel-inner .item,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+ opacity: 0;
+}
+.carousel-fade .carousel-inner .active,
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+ opacity: 1;
+}
+.carousel-fade .carousel-inner .next,
+.carousel-fade .carousel-inner .prev,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+ left: 0;
+ transform: translate3d(0, 0, 0);
+}
+.carousel-bg .carousel-inner .item {
+ background-color: darkslategrey;
+ background-size: cover;
+ background-position: center;
+ min-height: 480px;
+}
+.groope{
+  color:red;
+}
